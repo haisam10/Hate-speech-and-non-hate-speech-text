@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বাংলা Text Classification Dataset</title>
+    <style>
+        body {
+            font-family: "Noto Sans Bengali", Arial, sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background: #007bff;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f1f1f1;
+        }
+
+        .toxic {
+            color: red;
+            font-weight: bold;
+        }
+
+        .normal {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>বাংলা Text Classification Dataset</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>টেক্সট</th>
+                <th>লেবেল</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>তুই একটা কুত্তা</td><td class="toxic">1</td></tr>
+            <tr><td>তুই বোকা</td><td class="toxic">1</td></tr>
+            <tr><td>তুই একটা গাধা</td><td class="toxic">1</td></tr>
+            <tr><td>তুই একটা জানোয়ার</td><td class="toxic">1</td></tr>
+            <tr><td>তুই কিছুই পারিস না</td><td class="toxic">1</td></tr>
+            <tr><td>তুই একটা অপদার্থ</td><td class="toxic">1</td></tr>
+            <tr><td>তুই একটা মূর্খ</td><td class="toxic">1</td></tr>
+            <tr><td>তোর কোনো মূল্য নেই</td><td class="toxic">1</td></tr>
+            <tr><td>তুই সমাজের বোঝা</td><td class="toxic">1</td></tr>
+            <tr><td>তুই একটা লজ্জা</td><td class="toxic">1</td></tr>
+
+            <tr><td>আমি ভালো আছি</td><td class="normal">0</td></tr>
+            <tr><td>আজকের আবহাওয়া সুন্দর</td><td class="normal">0</td></tr>
+            <tr><td>বাংলাদেশ একটি সুন্দর দেশ</td><td class="normal">0</td></tr>
+            <tr><td>আমি বই পড়তে ভালোবাসি</td><td class="normal">0</td></tr>
+            <tr><td>তুমি কেমন আছো</td><td class="normal">0</td></tr>
+            <tr><td>আজ আমার মন ভালো</td><td class="normal">0</td></tr>
+            <tr><td>আমরা একসাথে কাজ করব</td><td class="normal">0</td></tr>
+            <tr><td>শুভ সকাল</td><td class="normal">0</td></tr>
+            <tr><td>ধন্যবাদ তোমাকে</td><td class="normal">0</td></tr>
+            <tr><td>তোমার সাহায্যের জন্য কৃতজ্ঞ</td><td class="normal">0</td></tr>
+
+            <tr><td>আমি নতুন কিছু শিখছি</td><td class="normal">0</td></tr>
+            <tr><td>আজকের ক্লাস খুব ভালো হয়েছে</td><td class="normal">0</td></tr>
+            <tr><td>আমি ভ্রমণ করতে পছন্দ করি</td><td class="normal">0</td></tr>
+            <tr><td>সে একজন ভালো বন্ধু</td><td class="normal">0</td></tr>
+            <tr><td>চলো খেলতে যাই</td><td class="normal">0</td></tr>
+            <tr><td>আমার পরিবারকে ভালোবাসি</td><td class="normal">0</td></tr>
+            <tr><td>তুমি খুব পরিশ্রমী</td><td class="normal">0</td></tr>
+            <tr><td>আমরা সফল হব</td><td class="normal">0</td></tr>
+            <tr><td>আজকে অনেক কাজ করেছি</td><td class="normal">0</td></tr>
+            <tr><td>এই গানটি সুন্দর</td><td class="normal">0</td></tr>
+
+            <tr><td>আমি চা খেতে পছন্দ করি</td><td class="normal">0</td></tr>
+            <tr><td>তোমার দিনটি শুভ হোক</td><td class="normal">0</td></tr>
+            <tr><td>সবাইকে শুভেচ্ছা</td><td class="normal">0</td></tr>
+            <tr><td>আমার নতুন বই এসেছে</td><td class="normal">0</td></tr>
+            <tr><td>আজকে বৃষ্টি হতে পারে</td><td class="normal">0</td></tr>
+            <tr><td>আমি প্রোগ্রামিং শিখছি</td><td class="normal">0</td></tr>
+            <tr><td>তুমি দারুণ কাজ করেছো</td><td class="normal">0</td></tr>
+            <tr><td>চল আমরা পড়াশোনা করি</td><td class="normal">0</td></tr>
+            <tr><td>আমি ফুটবল খেলতে পছন্দ করি</td><td class="normal">0</td></tr>
+            <tr><td>আজকের দিনটি চমৎকার</td><td class="normal">0</td></tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
